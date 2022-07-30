@@ -1,0 +1,97 @@
+.order{
+    width:320px;
+    margin-right: 30px;
+    margin-top: 50px;
+}
+.order-edit{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 21px;
+    font-weight: bold;
+}
+.order-edit span{
+    font-size: 12px;
+    color:rgb(46, 219, 126);
+}
+.fa-clock-o{
+    background-color: rgb(39, 229, 128);
+    border-radius: 50%;
+    color: white;
+    margin-right: 20px;
+    font-size: 17px;
+}
+.time{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    font-size: 14px;
+}
+.food-order{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.food-img{
+    width:30px;
+    border-radius: 50%;
+    height:30px;
+
+}
+.food-name{
+    font-size:13px;
+    font-weight: bold;
+   
+}
+.food-weight{
+    font-weight: lighter !important;
+    text-align: left;
+    color:rgb(142, 141, 141);
+}
+.quantity{
+    border:2px rgb(46, 219, 126) solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:60px;
+    height:22px;
+    border-radius: 20px;
+    padding: 0px 5px;
+    padding-bottom:2px;
+    cursor:pointer;
+}
+.food-price{
+    font-size: 14px;
+    font-weight: bold;
+    
+}
+.cut{
+    color:rgb(176, 175, 175);
+    font-weight: lighter;
+    font-size: 17px;
+    cursor: pointer;
+}
+.none{
+    display: none;
+}
+.drag{
+    border:2px rgb(46, 219, 126) dashed;
+    height: 40px;
+    font-size: 16px;
+    padding-top: 5px;
+    color:rgb(46, 219, 126);
+   
+}
+.checkout{
+    margin-top: 10px;
+    height: 40px;
+    background-color: rgb(46, 219, 126);
+    border-radius: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: white;
+}

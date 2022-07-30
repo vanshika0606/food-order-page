@@ -1,0 +1,39 @@
+#left-box{
+    
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    height: 90vh;
+    width:20vw;
+    background-color: rgb(46, 219, 126);
+    padding-top: 10vh;
+}
+.menu{
+    float: right;
+    width:18vw;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: white;
+    height: 6.8vh;
+    color: rgb(46, 219, 126);
+    display: flex;
+    font-size: 15px;
+    font-weight: bold;
+    justify-content: space-between;
+    
+}
+
+.menu >p{
+    margin: auto 0;
+}
+
+
+
+@media screen and (max-width: 1100px) {
+    
+
+}
+
+
+
+
+
